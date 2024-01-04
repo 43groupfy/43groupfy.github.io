@@ -33,7 +33,7 @@ With 15 years of experience, I've worked as a SDET for 5 years, Senior/Lead QA E
 {: .prompt-tip }
 
 Here are a few past projects I've worked on. Want to see them?
-[Click here]({{ site.url }}{{ site.baseurl }}/categories/portfolio)
+[Click here]({{ site.url }}{{ site.baseurl }}/categories/projects)
 
 Testimonials
 ------------
