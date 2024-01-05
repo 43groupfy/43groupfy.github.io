@@ -19,7 +19,7 @@ title: Alexander Fuks # the main title
 tagline: SDET | Full-stack developer  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A personal professional blog
+  A personal professional blog of Alexander Fuks focusing on software testing, development and devops.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -50,7 +50,7 @@ google_site_verification: # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # fill in your Google Analytics ID
+  id: G-RZZNB5F9VM # fill in your Google Analytics ID
 
 # Prefer color scheme setting.
 #
