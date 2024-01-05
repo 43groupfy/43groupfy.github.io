@@ -40,7 +40,7 @@ Testimonials
 
 People I've worked with have said some nice things...
 
-> Kalyn and I want you to know that Alexander is a real asset to our team. We previously noticed that he brings thoughtful questions to our planning sessions and he has a good understanding of the product, but when Tatiana was on vacation the last two weeks, he did an excellent job of taking on many of her responsibilities. We especially appreciate the work he did to prepare documentation and scenarios for our meeting with client last week (including working some hours one weekend).
+> Lacey and I want you to know that Alexander is a real asset to our team. We previously noticed that he brings thoughtful questions to our planning sessions and he has a good understanding of the product, but when David was on vacation the last two weeks, he did an excellent job of taking on many of her responsibilities. We especially appreciate the work he did to prepare documentation and scenarios for our meeting with client last week (including working some hours one weekend).
 - Senior Program Manager
 
 > You are one of my favorites and I have made it very clear to many people here and at there that you are a valuable member of the team. You quickly learned the product, but more importantly I can see that you are good at looking at the whole picture and not focusing only on the specific thing you are testing. This is a skill that is extremely valuable to an organization. I am sure you will be successful at current position and wherever life takes you.
