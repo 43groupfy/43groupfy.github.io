@@ -53,5 +53,5 @@ E(Users) --> D
 
 ## Demo
 
-![Website design](/assets/img/vsyotorg/web.png)
+![Website design](/assets/img/website-for-local-commercial-equipment-production-company/web.png)
 _Website design_
