@@ -16,10 +16,10 @@ timezone: Asia/Tbilisi
 
 title: Alexander Fuks # the main title
 
-tagline: SDET | Full-stack developer  # it will display as the sub-title
+tagline: "A Developer's Journey"  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A personal professional blog of Alexander Fuks focusing on software testing, development and devops.
+  A personal professional blog of Alexander Fuks focusing on software development, testing, and devops.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.

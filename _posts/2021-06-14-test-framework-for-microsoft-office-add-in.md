@@ -1,6 +1,6 @@
 ---
 title: Test framework for Microsoft Office add-in
-date: 2021-06-14 18:01:24 +0400
+date: 2021-06-14 18:01:24 +0300
 categories: [Projects]
 tags: [DotNet, Selenium, FlaUI, Desktop automation, Web automation]
 mermaid: true

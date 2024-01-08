@@ -1,8 +1,8 @@
 ---
 title: Website for local commercial equipment production company
-date: 2012-08-12 22:49:02 +0400
+date: 2012-08-12 22:49:02 +0200
 categories: [Projects]
-tags: [DotNet, PHP, MySQL, HTML, JavaScript]
+tags: [DotNet, WinForms, PHP, MySQL, HTML, JavaScript]
 mermaid: true
 ---
 
