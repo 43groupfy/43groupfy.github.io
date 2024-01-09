@@ -110,3 +110,7 @@ private async void ExecuteTasks(object sender, EventArgs e)
 
 ## Conclusion
 It's a good thing to think about ways to improve usability even for applications not originally designed for direct user interaction, keeping in mind development and test environments. Yes, it may not be feasible to build a UI application for every case. But having nice command line help and input parameter validation can go a long way.
+
+## Demo
+
+{% include embed/youtube.html id='JQEGedtAd0I' %}
