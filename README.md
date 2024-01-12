@@ -16,3 +16,8 @@ $ bundle exec jekyll
 ```bash
 $ bundle exec jekyll s
 ```
+
+- Upgrade theme
+```bash
+bundle update jekyll-theme-chirpy
+```
