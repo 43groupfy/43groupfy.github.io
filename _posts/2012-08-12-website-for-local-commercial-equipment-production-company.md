@@ -11,6 +11,11 @@ This was one of the first projects I was asked to work on as a developer while I
 
 I'd never worked on design and had no experience with Photoshop, so I asked my classmate to do the design while I focused on the functionality and backend of the website. Nowadays, there are many website templates and UI kits available to make things easier. Moreover, using modern frameworks like Angular or React, we can not worry about design aspects and focus on coding. But those days were different.
 
+## Demo
+
+![Website design](/assets/img/website-for-local-commercial-equipment-production-company/web.png)
+_Website design_
+
 ## Requirements
 - Create a website
 - Create an admin application to
@@ -50,8 +55,3 @@ E(Users) --> D
 - I learned the importance of clear communication and managing expectations with the client
 - Designing a user friendly and easy to use admin interface is just as important as the public website
 - Having a dedicated designer on the project helped to divide responsibilities and ensure that each part was handled by the right person
-
-## Demo
-
-![Website design](/assets/img/website-for-local-commercial-equipment-production-company/web.png)
-_Website design_

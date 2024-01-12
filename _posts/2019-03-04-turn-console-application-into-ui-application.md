@@ -10,6 +10,10 @@ Some applications are designed for computers, not people. Imagine a service that
 
 I was once confronted with such applications. They required passing some parameters that were not obvious to people who rarely had to deal with them. So doing it through the console was not convenient. At some point, I decided to add a UI to interact with them and reduce the time spent thinking about what parameters to pass and avoid human error in following specific workflows related to the service.
 
+## Demo
+
+{% include embed/youtube.html id='JQEGedtAd0I' %}
+
 ## Requirements
 - Add a user interface to interact with the console application
 - Make it easy for people to use
@@ -110,7 +114,3 @@ private async void ExecuteTasks(object sender, EventArgs e)
 
 ## Conclusion
 It's a good thing to think about ways to improve usability even for applications not originally designed for direct user interaction, keeping in mind development and test environments. Yes, it may not be feasible to build a UI application for every case. But having nice command line help and input parameter validation can go a long way.
-
-## Demo
-
-{% include embed/youtube.html id='JQEGedtAd0I' %}
