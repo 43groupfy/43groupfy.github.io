@@ -11,7 +11,6 @@ Some applications are designed for computers, not people. Imagine a service that
 I was once confronted with such applications. They required passing some parameters that were not obvious to people who rarely had to deal with them. So doing it through the console was not convenient. At some point, I decided to add a UI to interact with them and reduce the time spent thinking about what parameters to pass and avoid human error in following specific workflows related to the service.
 
 ## Demo
-
 {% include embed/youtube.html id='JQEGedtAd0I' %}
 
 ## Requirements
