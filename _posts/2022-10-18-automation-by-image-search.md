@@ -29,11 +29,11 @@ As a first step, let's prepare assets with yellow fruits and buttons we need to 
 
 <pre>
 📦assets
- ┣ 🖼️banana.png
- ┣ 🖼️pineapple.png
- ┣ 🖼️lemon.png
- ┣ 🖼️next.png
- ┗ 🖼️play-again.png
+ ┣ 🖼️01-banana.png
+ ┣ 🖼️02-pineapple.png
+ ┣ 🖼️03-lemon.png
+ ┣ 🖼️04-next.png
+ ┗ 🖼️05-play-again.png
  </pre>
 
 Now we can compare the screenshot from the game with our assets folder using `python_imagesearch` which provides image search capabilities. It has `imagesearcharea()` function to search screenshot and return coordinates if it matches. Then we will use `pyautogui` to move the mouse cursor to the appropriate position and perform a left click.
@@ -80,6 +80,6 @@ Here I use some delay after each click to give the in-game animation time to com
 ## Conclusion
 Even though it was a simple game, this approach allowed me to automate repetitive tasks without any visual identification. However, this approach has some drawbacks if we want to scale it up for larger projects. It is necessary to consider other options and be aware of these limitations.
 
-- Image recognition is relatively slow. The image recognition area should be as small as possible to avoid wasting processing time during execution. Each asset should be as small as possible for the same reason.
+- Image recognition is relatively slow. The image recognition area should be as small as possible to avoid wasting processing time during execution. Each asset should be as small as possible for the same reason. Assets should be sorted and used in order from most expected to least expected. This improves the average execution time.
 - No error thrown on failed click or misclick.
 - Assets are sensitive to any visual changes. Light/dark themes, UI updates can break image search. So you may need to prepare assets for both or have strict requirements for the automation execution environment. Hence, it will work poorly with animated elements and may fail due to element visual state changes such as hover, active, etc.
