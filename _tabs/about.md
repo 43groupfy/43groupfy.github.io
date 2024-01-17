@@ -8,32 +8,77 @@ order: 4
 {: .prompt-tip } -->
 
 Hi, I'm Alexander. Nice to meet you.
-------------------------------------
+---
 
 Since I started my journey as an enterprise software test engineer 15 years ago, I've been building applications to simplify my work and that of my colleagues. After all these years of improving my skills and gaining experience, I continue to build small and bigger projects playing with different technology stacks and I really enjoy this process.
 
 ```js
-const yearsOfExperience = 15;
-const jobHistory = [
-  { role: 'SDET', duration: '5 years' },
-  { role: 'Senior/Lead QA Engineer', duration: '10 years' },
-  { role: 'Software Developer', duration: '2 years' },
+const experience = [
+  { role: 'Software Developer', years: 2 },
+  { role: 'SDET', years: 5 },
+  { role: 'QA Engineer', years: 10 },
 ];
-const skills = ['C#', 'JavaScript', 'TypeScript', 'Node.js', 'Webpack', 'Azure', 'Git', 'SQL', 'Playwright', 'Selenium'];
+
+const languages = ['C#', 'JavaScript', 'TypeScript', 'Java', 'PHP', 'C++',
+  'Delphi', 'Pascal', 'Basic'];
+
+const tools = ['Apache', 'ASP.NET', 'Azure', 'CodeceptJS', 'Git', 'Jenkins',
+  'JMeter', 'JSP', 'MSSQL', 'Node.js', 'Nuke', 'Playwright', 'Postman',
+  'Selenium', 'SQLite', 'SVN', 'TFS', 'Tomcat', 'Webpack', 'WinForms', 'WPF'];
+
+const os = ['Windows', 'Linux'];
+
+const others = ['Raspberry Pi', 'Arduino', 'NodeMCU', 'ESP8266'];
 
 function describeExperience() {
-  return `With ${yearsOfExperience} years of experience, I've worked as a ${jobHistory.map(job => `${job.role} for ${job.duration}`).join(', ')}. My skills include ${skills.join(', ')}.`;
+  const yearsOfExperience = experience.reduce((total, job) => total + job.years, 0);
+  const jobHistory = experience.map(job => `${job.role} for ${job.years} years`);
+  const skills = [...programmingLanguages, ...tools, ...os, ...others];
+  
+  return `With ${yearsOfExperience} years of experience, ` + 
+    `I've worked as a ${jobHistory.join(', ')}. My skills include ${skills.join(', ')}.`;
 }
-
-console.log(describeExperience());
 ```
 
-> Output:
-With 15 years of experience, I've worked as a SDET for 5 years, Senior/Lead QA Engineer for 10 years, Software Developer for 2 years. My skills include C#, JavaScript, TypeScript, Node.js, Webpack, Azure, Git, SQL, Playwright, Selenium.
-{: .prompt-tip }
+<script>
+const experience = [
+  { role: 'Software Developer', years: 2 },
+  { role: 'SDET', years: 5 },
+  { role: 'QA Engineer', years: 10 },
+];
 
-Here are a few past projects I've worked on. Want to see them?
-[Click here]({{ site.url }}{{ site.baseurl }}/categories/projects)
+const languages = ['C#', 'JavaScript', 'TypeScript', 'Java', 'PHP', 'C++',
+  'Delphi', 'Pascal', 'Basic'];
+
+const tools = ['Apache', 'ASP.NET', 'Azure', 'CodeceptJS', 'Git', 'Jenkins',
+  'JMeter', 'JSP', 'MSSQL', 'Node.js', 'Nuke', 'Playwright', 'Postman',
+  'Selenium', 'SQLite', 'SVN', 'TFS', 'Tomcat', 'Webpack', 'WinForms', 'WPF'];
+
+const os = ['Windows', 'Linux'];
+
+const others = ['Raspberry Pi', 'Arduino', 'NodeMCU', 'ESP8266'];
+
+function describeExperience() {
+  const yearsOfExperience = experience.reduce((total, job) => total + job.years, 0);
+  const jobHistory = experience.map(job => `${job.role} for ${job.years} years`);
+  const skills = [...languages, ...tools, ...os, ...others];
+  
+  return `With ${yearsOfExperience} years of experience, ` + 
+    `I've worked as a ${jobHistory.join(', ')}. My skills include ${skills.join(', ')}.`;
+}
+
+function displayOutput() {
+  document.getElementById('output-console').textContent = 'Output: ' + describeExperience();
+}
+</script>
+
+> <button class="btn btn-success" onclick="displayOutput()">
+>  <span>Click me</span>
+> </button> to see the code output.
+{: .prompt-tip #output-console }
+
+> Want to know more about my experience? Here are [projects](/categories/projects) I worked on and [tools](/tags) I use.
+{: .prompt-info }
 
 Testimonials
 ------------
