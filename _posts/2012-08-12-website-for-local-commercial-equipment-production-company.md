@@ -4,6 +4,7 @@ date: 2012-08-12 22:49:02 +0200
 categories: [Projects]
 tags: [DotNet, WinForms, PHP, MySQL, HTML, JavaScript]
 mermaid: true
+img_path: assets/img/website-for-local-commercial-equipment-production-company/
 ---
 
 ## Story
@@ -13,7 +14,7 @@ I'd never worked on design and had no experience with Photoshop, so I asked my c
 
 ## Demo
 
-![Website design](/assets/img/website-for-local-commercial-equipment-production-company/web.png)
+![Website design](web.png)
 _Website design_
 
 ## Requirements

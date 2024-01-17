@@ -3,6 +3,7 @@ title: SPA web application for small businesses
 date: 2021-11-10 21:16:09 +0300
 categories: [Projects]
 tags: [Angular, JavaScript, TypeScript, NodeJS, Fastify, SQLite, Electron]
+img_path: assets/img/spa-web-application-for-small-businesses/
 ---
 
 ## Story
@@ -31,7 +32,7 @@ At first I thought about separate desktop and mobile applications and how to syn
 ### Database
 I decided to stick with SQLite as a lightweight solution that was easy to back up and move. The database schema got a bit bigger with additional tables for employee titles, properties, categories, etc. Also, the schema and the application itself were designed to manage multiple businesses in case he ever wanted to track income/expenses for other ventures separately in the future.
 
-![Database schema](/assets/img/spa-web-application-for-small-businesses/database-schema.png){: width="440" height="350" }
+![Database schema](database-schema.png){: width="440" height="350" }
 _Database schema_
 
 ### Backend

@@ -3,6 +3,7 @@ title: Automation by image search
 date: 2022-10-18 23:05:59 +0400
 categories: [Projects]
 tags: [Python, Desktop automation, Web automation]
+img_path: assets/img/automation-by-image-search/
 ---
 
 ## Story
@@ -22,7 +23,7 @@ Stack used:
 
 We need to find the screen location of items to interact with. There are some rules were given like game character enjoys only yellow fruits, so user had to click on yellow fruits on screen.
 
-![In-game fruits](/assets/img/automation-by-image-search/in-game-fruits.png)
+![In-game fruits](in-game-fruits.png)
 _In-game fruits_
 
 As a first step, let's prepare assets with yellow fruits and buttons we need to click to confirm our selection and play again.

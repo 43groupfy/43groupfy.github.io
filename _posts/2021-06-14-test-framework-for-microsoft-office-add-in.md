@@ -4,6 +4,7 @@ date: 2021-06-14 18:01:24 +0300
 categories: [Projects]
 tags: [DotNet, Selenium, FlaUI, Desktop automation, Web automation]
 mermaid: true
+img_path: assets/img/test-framework-for-microsoft-office-add-in/
 ---
 
 ## Story
@@ -11,7 +12,7 @@ In general, this is a typical task for any test automation engineer to spin up a
 
 What is a Microsoft Office add-in? Whenever you start Microsoft Word, Excel, PowerPoint, or Outlook, a side panel appears that is an add-in. The Wikipedia add-in is shown as an example in the screenshot below.
 
-![Example of a Word add-in](/assets/img/test-framework-for-microsoft-office-add-in/add-in.png)
+![Example of a Word add-in](add-in.png)
 _Example of a Word add-in_
 
 In my case, add-in loaded a web browser and then a web content, which is React application. So testing it required both UI automation for Office desktop application and web application testing.
