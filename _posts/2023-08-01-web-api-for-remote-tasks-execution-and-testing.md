@@ -2,7 +2,7 @@
 title: Web API for remote tasks execution and testing
 date: 2023-08-01 13:31:18 +0400
 categories: [Projects]
-tags: [DotNet, ASP.NET, CodeceptJS, API, Test automation]
+tags: [DotNet, C#, ASP.NET, CodeceptJS, API, Test automation]
 mermaid: true
 ---
 
