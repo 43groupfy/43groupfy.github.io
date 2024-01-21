@@ -4,6 +4,7 @@ date: 2021-11-10 21:16:09 +0300
 categories: [Projects]
 tags: [Angular, JavaScript, TypeScript, NodeJS, Fastify, SQLite, Electron]
 img_path: assets/img/spa-web-application-for-small-businesses/
+image: demo.png
 ---
 
 ## Story
