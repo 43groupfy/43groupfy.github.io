@@ -1,6 +1,6 @@
 ---
 title: Aquaculture management and analysis software
-date: 2015-05-16 01:09:23 +0200
+date: 2013-05-16 01:09:23 +0200
 categories: [Projects]
 tags: [DotNet, C#, WinForms, SQLite, InnoSetup, Delphi, Batch Scripting]
 mermaid: true
