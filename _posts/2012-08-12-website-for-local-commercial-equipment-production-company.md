@@ -14,7 +14,7 @@ I'd never worked on design and had no experience with Photoshop, so I asked my c
 
 ## Demo
 
-![Website design](web.png)
+![Website design](demo.png)
 _Website design_
 
 ## Requirements
