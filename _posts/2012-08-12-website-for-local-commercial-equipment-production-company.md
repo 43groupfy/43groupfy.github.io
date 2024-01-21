@@ -5,17 +5,13 @@ categories: [Projects]
 tags: [DotNet, C#, WinForms, PHP, MySQL, HTML, JavaScript]
 mermaid: true
 img_path: assets/img/website-for-local-commercial-equipment-production-company/
+image: demo.png
 ---
 
 ## Story
 This was one of the first projects I was asked to work on as a developer while I was still a student. The client wanted a website to showcase their products and services, but also needed an admin panel to manage content on the backend to make it easier for them to manage everything without having to rely on a developer every time. This was a great opportunity for me to learn and apply my skills.
 
 I'd never worked on design and had no experience with Photoshop, so I asked my classmate to do the design while I focused on the functionality and backend of the website. Today, there are many website templates and UI kits available to make things easier. And with modern frameworks like Angular or React, we don't have to worry about design and can focus on coding. But those days were different.
-
-## Demo
-
-![Website design](demo.png)
-_Website design_
 
 ## Requirements
 - Create a website
