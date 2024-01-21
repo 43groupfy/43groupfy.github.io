@@ -1,7 +1,7 @@
 ---
 title: Choosing a selector strategy
 date: 2021-10-15 11:06:44 +0400
-categories: [Articles]
+categories: [Posts]
 tags: [Web automation, Testing Library, Playwright]
 ---
 
