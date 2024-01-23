@@ -12,6 +12,11 @@ $ bundle
 $ bundle exec jekyll
 ```
 
+- Include drafts into build
+```bash
+$ bundle exec jekyll --drafts
+```
+
 - Build and watch
 ```bash
 $ bundle exec jekyll s
