@@ -8,7 +8,6 @@ img_path: assets/img/prove-that-your-tests-can-fail/
 image:
 ---
 
-## Story
 Over the past few months, I've encountered a recurring situation during code reviews for newly developed automated end-to-end tests across various projects and programming languages. It's understandable to make mistakes in the code, but there is a different aspect of this situation.
 
 ## Case

@@ -5,7 +5,6 @@ categories: [Projects]
 tags: [DotNet, C#, WinForms, MVC]
 ---
 
-## Story
 Some applications are designed for computers, not people. Imagine a service that runs in the background and performs some tasks periodically. While such applications work fine without a user interface, it makes them difficult for humans to use. But that is not a problem because they were never intended to be. However, there are times when we want to interact with such applications for debugging, testing, or demonstration purposes. In such cases, adding a simple UI can make a big difference.
 
 I was once confronted with such applications. They required passing some parameters that were not obvious to people who rarely had to deal with them. So doing it through the console was not convenient. At some point, I decided to add a UI to interact with them and reduce the time spent thinking about what parameters to pass and avoid human error in following specific workflows related to the service.

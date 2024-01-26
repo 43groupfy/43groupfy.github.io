@@ -5,7 +5,6 @@ categories: [Posts]
 tags: [Web automation, Testing Library, Playwright]
 ---
 
-## Introduction
 What is a selector? In terms of web automation testing, a selector refers to the mechanism or technique used to locate and identify an element on a web page. Common selector types include ID, Name, Class, XPath, CSS, Link text etc.
 
 | Selector type | Example                        |

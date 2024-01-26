@@ -7,7 +7,6 @@ img_path: assets/img/development-server-management/
 image: demo.png
 ---
 
-## Story
 In the period 2011-2013 I was working on various personal and customer projects and it became more and more difficult to manage the source code and all related documentation for them. At that time I became familiar with the Unix system and wanted to learn more about it. My goal was to set up a development server that would help me manage source code repositories, build environments, issue tracking, and more in an organized way, and to share these tools with other people I work with. I want to set it up on my own hardware so that I can learn server administration as well.
 
 ## Hardware

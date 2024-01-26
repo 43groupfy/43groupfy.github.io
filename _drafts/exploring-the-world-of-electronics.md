@@ -6,4 +6,3 @@ tags: [C++, ESP8266]
 img_path: assets/img/
 ---
 
-## Story

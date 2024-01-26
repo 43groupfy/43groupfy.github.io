@@ -7,7 +7,6 @@ mermaid: true
 img_path: assets/img/browser-extension-to-add-what-is-missing/
 ---
 
-## Story
 Typically, agile teams do not practice writing formal requirements. Instead, they use stories to describe what needs to be done, and the QA team can use test cases to fix expected behavior for future use in regression, for example. In such a scenario, test cases become very important, and test management systems are what people use every day to create, track, and execute test cases.
 
 In one such routine, the project I was working on decided to switch to a new test management system. It is an online web platform where you interact with the software using a regular web browser. However, as it turned out, this system lacked some functionality and not every single aspect of UX was adopted for everyday use.

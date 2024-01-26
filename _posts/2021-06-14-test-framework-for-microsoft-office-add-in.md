@@ -7,7 +7,6 @@ mermaid: true
 img_path: assets/img/test-framework-for-microsoft-office-add-in/
 ---
 
-## Story
 In general, this is a typical task for any test automation engineer to spin up a test project for a web or desktop application. However, sometimes there are projects that require a bit more effort and research to get started. Testing Office add-ins is one such case.
 
 What is a Microsoft Office add-in? Whenever you start Microsoft Word, Excel, PowerPoint, or Outlook, a side panel appears that is an add-in. The Wikipedia add-in is shown as an example in the screenshot below.

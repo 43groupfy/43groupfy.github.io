@@ -6,7 +6,6 @@ tags: [Java, JSP, JavaScript, Tomcat, Bootstrap, jQuery]
 mermaid: true
 ---
 
-## Story
 When I started my career as a quality engineer, one of the challenges I faced was finding requirements in a large document repository. There was no real way to search and filter requirements. It took a lot of time to find relevant requirements for each task, so they were rarely used in practice. At some point, I decided to automate this process by developing a desktop application that could search through all requirements documents based on my query.
 
 Later, I wanted to share this application with others on my team. So I turned it into a web application using C#. I created my own web server and ran the search logic on the server side. I had the requirements converted from a document repository to a SQLite database, which was really fast compared to searching the documents as I had done in my first solution.

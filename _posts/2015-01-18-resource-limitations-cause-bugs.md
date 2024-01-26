@@ -6,7 +6,6 @@ tags: [Testing]
 img_path: assets/img/resource-limitations-cause-bugs/
 ---
 
-## Story
 While answering interview questions, I was once asked about the most interesting bug I had encountered during my career as a software test engineer. I never thought about rating the "interestingness" of bugs, but I started thinking about how to answer the interviewer. It would be trivial to come up with cases where something just did not work, or problems with business logic and data validation. But what really makes a bug story interesting is when limitations in the underlying platform or resources manifest themselves in unexpected ways.
 
 ## Case #1: GDI object leaks
