@@ -4,7 +4,7 @@ date: 2021-11-10 21:16:09 +0300
 categories: [Projects]
 tags: [Angular, JavaScript, TypeScript, NodeJS, Fastify, SQLite, Electron]
 img_path: assets/img/spa-web-application-for-small-businesses/
-image: demo.png
+image: demo.jpg
 ---
 
 This was my longest project so far, which started somewhere in 2008 and ended in 2021. My dad asked me to create a program that would allow him to easily keep track of his business income and expenses without having to learn complex accounting solutions. I built several solutions and changed the tech stack over time to meet his needs and learn something new for myself.
