@@ -1,7 +1,7 @@
 ---
 title: Website for local commercial equipment production company
 date: 2012-08-12 22:49:02 +0200
-categories: [Projects]
+categories: [Projects, Web, Desktop]
 tags: [DotNet, C#, WinForms, PHP, MySQL, HTML, JavaScript]
 mermaid: true
 img_path: assets/img/website-for-local-commercial-equipment-production-company/

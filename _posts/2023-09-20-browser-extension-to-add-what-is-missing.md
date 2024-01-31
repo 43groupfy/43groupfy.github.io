@@ -1,7 +1,7 @@
 ---
 title: Browser extension to add what is missing
 date: 2023-09-20 23:18:32 +0400
-categories: [Projects]
+categories: [Projects, Web]
 tags: [Javascript, Webpack]
 mermaid: true
 img_path: assets/img/browser-extension-to-add-what-is-missing/

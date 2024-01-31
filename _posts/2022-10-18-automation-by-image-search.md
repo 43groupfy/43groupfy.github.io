@@ -1,7 +1,7 @@
 ---
 title: Automation by image search
 date: 2022-10-18 23:05:59 +0400
-categories: [Projects]
+categories: [Projects, Desktop, Web]
 tags: [Python, Desktop automation, Web automation]
 img_path: assets/img/automation-by-image-search/
 ---

@@ -1,7 +1,7 @@
 ---
 title: Resource limitations cause bugs
 date: 2015-01-18 16:00:21 +0300
-categories: [Posts]
+categories: [Posts, Software Testing]
 tags: [Testing]
 img_path: assets/img/resource-limitations-cause-bugs/
 ---

@@ -1,7 +1,7 @@
 ---
 title: Development server management
 date: 2013-07-04 00:18:57 +0200
-categories: [Projects]
+categories: [Projects, DevOps]
 tags: [Linux, Bash, SVN, Munin, Jenkins, Redmine, PHP, MySQL]
 img_path: assets/img/development-server-management/
 image: demo.jpg

@@ -1,7 +1,7 @@
 ---
 title: Test framework for Microsoft Office add-in
 date: 2021-06-14 18:01:24 +0300
-categories: [Projects]
+categories: [Projects, Desktop, Web]
 tags: [DotNet, C#, Selenium, FlaUI, Desktop automation, Web automation]
 mermaid: true
 img_path: assets/img/test-framework-for-microsoft-office-add-in/
