@@ -1,9 +1,9 @@
 ---
-title: Development server management
+title: Creating a development server
 date: 2013-07-04 00:18:57 +0200
 categories: [Projects, DevOps]
 tags: [Linux, Bash, SVN, Munin, Jenkins, Redmine, PHP, MySQL]
-img_path: assets/img/development-server-management/
+img_path: assets/img/creating-a-development-server/
 image: demo.jpg
 ---
 

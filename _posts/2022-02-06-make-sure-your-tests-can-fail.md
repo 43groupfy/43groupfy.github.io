@@ -1,10 +1,10 @@
 ---
-title: Prove that your tests can fail
+title: Make sure your tests can fail
 date: 2022-02-06 19:02:49 +0400
 categories: [Posts, Automated Testing]
 tags: [Automated Testing]
 mermaid: true
-img_path: assets/img/prove-that-your-tests-can-fail/
+img_path: assets/img/make-sure-your-tests-can-fail/
 image:
 ---
 
