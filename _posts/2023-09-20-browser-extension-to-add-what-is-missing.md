@@ -5,6 +5,7 @@ categories: [Projects, Web]
 tags: [Javascript, Webpack]
 mermaid: true
 img_path: assets/img/browser-extension-to-add-what-is-missing/
+image:
 ---
 
 Typically, agile teams do not practice writing formal requirements. Instead, they use stories to describe what needs to be done, and the QA team can use test cases to fix expected behavior for future use in regression, for example. In such a scenario, test cases become very important, and test management systems are what people use every day to create, track, and execute test cases.

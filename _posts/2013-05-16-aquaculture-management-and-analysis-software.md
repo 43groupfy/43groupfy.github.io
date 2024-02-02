@@ -5,6 +5,7 @@ categories: [Projects, Desktop]
 tags: [DotNet, C#, WinForms, SQLite, InnoSetup, Delphi, Batch Scripting]
 mermaid: true
 img_path: assets/img/aquaculture-management-and-analysis-software/
+image:
 ---
 
 I have done some small projects so far, as my colleague suggested me to develop a solution for the research institute in 2014. This was a great opportunity for me to build a more complex, larger and hopefully professional solution. We worked with the customer to gather requirements and understand their needs. Since it takes time to understand their business, I built a basic prototype to demonstrate the core features and get early feedback. I had to think about how to model their data, design the UI/UX for their specific tasks, and think about how to make it easy to install and use for people who are not technical and have basic computer skills.

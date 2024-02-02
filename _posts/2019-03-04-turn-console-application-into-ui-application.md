@@ -3,6 +3,9 @@ title: Turn a console application into a UI application
 date: 2019-03-04 21:44:37 +0300
 categories: [Projects, Desktop]
 tags: [DotNet, C#, WinForms, MVC]
+mermaid: false
+img_path: /assets/img/turn-console-application-into-ui-application/
+image:
 ---
 
 Some applications are designed for computers, not people. Imagine a service that runs in the background and performs some tasks periodically. While such applications work fine without a user interface, it makes them difficult for humans to use. But that is not a problem because they were never intended to be. However, there are times when we want to interact with such applications for debugging, testing, or demonstration purposes. In such cases, adding a simple UI can make a big difference.

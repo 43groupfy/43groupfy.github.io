@@ -3,6 +3,7 @@ title: SPA web application for small businesses
 date: 2021-11-10 21:16:09 +0300
 categories: [Projects, Web]
 tags: [Angular, JavaScript, TypeScript, NodeJS, Fastify, SQLite, Electron]
+mermaid: false
 img_path: assets/img/spa-web-application-for-small-businesses/
 image: demo.jpg
 ---

@@ -3,7 +3,9 @@ title: Automation by image search
 date: 2022-10-18 23:05:59 +0400
 categories: [Projects, Desktop, Web]
 tags: [Python, Desktop automation, Web automation]
+mermaid: false
 img_path: assets/img/automation-by-image-search/
+image:
 ---
 
 Thanks to the application design and tools available today, it is quite easy to identify elements on a screen that need to be interacted with or validated. We use `TreeWalker` for desktop applications, selectors to find elements in the `DOM` for web applications. However, there are times when we are limited to programmatic access and need to find other ways.

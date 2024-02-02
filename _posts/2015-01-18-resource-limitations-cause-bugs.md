@@ -3,7 +3,9 @@ title: Resource limitations cause bugs
 date: 2015-01-18 16:00:21 +0300
 categories: [Posts, Software Testing]
 tags: [Testing]
+mermaid: false
 img_path: assets/img/resource-limitations-cause-bugs/
+image:
 ---
 
 While answering interview questions, I was once asked about the most interesting bug I had encountered during my career as a software test engineer. I never thought about rating the "interestingness" of bugs, but I started thinking about how to answer the interviewer. It would be trivial to come up with cases where something just did not work, or problems with business logic and data validation. But what really makes a bug story interesting is when limitations in the underlying platform or resources manifest themselves in unexpected ways.
