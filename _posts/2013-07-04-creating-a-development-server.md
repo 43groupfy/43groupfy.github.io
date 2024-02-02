@@ -88,7 +88,7 @@ done
 {: file="backup-db.sh" }
 
 ### Build agents
-To facilitate automated build and test, I configured Jenkins to use a VirtualBox VM running Windows as the build agent. However, I needed to ensure that the VM would automatically start and stop when the server was shut down. This required learning more about System-V. I wrote a [separate post](https://open-life.org/blog/1862.html) about this task to enter the Ubuntu OS 2011 contest for some nice prizes.
+To facilitate automated build and test, I configured Jenkins to use a VirtualBox VM running Windows as the build agent. However, I needed to ensure that the VM would automatically start and stop when the server was shut down. This required learning more about System-V. I wrote a [separate post](/posts/fine-tuning-the-autostart-in-ubuntu-server/) about this task earlier.
 
 ## Conclusion
 - Having a development server allowed me to manage projects in an organized way and learn new skills.

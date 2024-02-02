@@ -74,10 +74,10 @@ function displayOutput() {
 
 > <button class="btn btn-success" onclick="displayOutput()">
 >  <span>Click me</span>
-> </button> to see the code output.
+> </button> to see the code output
 {: .prompt-tip #output-console }
 
-> Want to know more about my experience? Here are [projects](/categories/projects) I worked on and [tools](/tags) I use.
+> Want to know more about my experience? Here are [projects](/categories/projects) I worked on and [tools](/tags) I use
 {: .prompt-info }
 
 Testimonials
