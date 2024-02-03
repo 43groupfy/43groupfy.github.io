@@ -5,7 +5,7 @@ categories: [Projects, Web]
 tags: [Java, JSP, JavaScript, Tomcat, Bootstrap, jQuery]
 mermaid: true
 img_path: /assets/img/web-application-to-search-for-requirements/
-image:
+image: cover.png
 ---
 
 When I started my career as a quality engineer, one of the challenges I faced was finding requirements in a large document repository. There was no real way to search and filter requirements. It took a lot of time to find relevant requirements for each task, so they were rarely used in practice. At some point, I decided to automate this process by developing a desktop application that could search through all requirements documents based on my query.
