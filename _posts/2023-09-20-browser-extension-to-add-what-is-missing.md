@@ -129,8 +129,8 @@ Each browser company maintains its own extension store where extension developer
 ## Extras
 You can find this project repository on [GitHub](https://github.com/kungfux/qtest-manager-assistant)
 
-[![Firefox Add-ons](get-addon-firefox.png)](https://addons.mozilla.org/en-US/firefox/addon/assistant-for-qtest-manager/)
-[![Chrome Web Store](get-addon-chrome.png)](https://chrome.google.com/webstore/detail/pnbnfgjbennnjlajgpoajfilinkdpiaf)
+[![Firefox Add-ons](get-addon-firefox.webp)](https://addons.mozilla.org/en-US/firefox/addon/assistant-for-qtest-manager/)
+[![Chrome Web Store](get-addon-chrome.webp)](https://chrome.google.com/webstore/detail/pnbnfgjbennnjlajgpoajfilinkdpiaf)
 
 ## Demo
 ![Feature: Highlight changes](https://github.com/kungfux/qtest-manager-assistant/raw/dev/docs/highlight.gif)

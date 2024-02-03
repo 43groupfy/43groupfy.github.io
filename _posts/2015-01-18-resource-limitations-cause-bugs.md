@@ -15,8 +15,8 @@ An interesting bug I encountered was while testing a C++ desktop application tha
 
 It turns out that there was a GDI object leak. According to Wikipedia, the Graphics Device Interface (GDI) is a legacy component of Microsoft Windows that is responsible for representing graphical objects and transferring them to output devices such as monitors and printers. Windows applications use the Windows API to interact with the GDI for tasks such as drawing lines and curves, rendering fonts, and handling palettes. The Windows user interface subsystem uses the GDI to render user interface elements such as window borders and menus. As a result, each graphical element, such as a button, label, or image, loaded by the application would consume a GDI object. Due to the complex nature of the UI in the application under test, a large number of GDI objects were created and not properly cleaned up or released. Over time, as the user refreshed the list and viewed details, the number of GDI objects would exceed the limit set by Windows, causing the application to malfunction.
 
-![Task manager showing GDI objects](taskmgr-dark.png){: .dark }
-![Task manager showing GDI objects](taskmgr-light.png){: .light }
+![Task manager showing GDI objects](taskmgr-dark.webp){: .dark }
+![Task manager showing GDI objects](taskmgr-light.webp){: .light }
 _Task manager showing GDI objects_
 
 ## Case #2: Running out of handlers

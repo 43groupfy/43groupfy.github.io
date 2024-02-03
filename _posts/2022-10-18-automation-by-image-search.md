@@ -24,7 +24,7 @@ Stack used:
 
 We need to find the screen location of items to interact with. There are some rules were given like game character enjoys only yellow fruits, so user had to click on yellow fruits on screen.
 
-![In-game fruits](in-game-fruits.png)
+![In-game fruits](in-game-fruits.webp)
 _In-game fruits_
 
 As a first step, let's prepare assets with yellow fruits and buttons we need to click to confirm our selection and play again.

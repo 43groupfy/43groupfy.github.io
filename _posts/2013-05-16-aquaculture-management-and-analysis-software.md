@@ -5,7 +5,7 @@ categories: [Projects, Desktop]
 tags: [DotNet, C#, WinForms, SQLite, InnoSetup, Delphi, Batch Scripting]
 mermaid: true
 img_path: assets/img/aquaculture-management-and-analysis-software/
-image: cover.png
+image: cover.webp
 ---
 
 I have done some small projects so far, as my colleague suggested me to develop a solution for the research institute in 2014. This was a great opportunity for me to build a more complex, larger and hopefully professional solution. We worked with the customer to gather requirements and understand their needs. Since it takes time to understand their business, I built a basic prototype to demonstrate the core features and get early feedback. I had to think about how to model their data, design the UI/UX for their specific tasks, and think about how to make it easy to install and use for people who are not technical and have basic computer skills.
@@ -73,7 +73,7 @@ I decided to store documents not in the database, but in the file system. A `Doc
 
 To display the appropriate icon for the document in the list, I checked if the path to the icon file was present in the registry at the path `HKEY_CLASSES_ROOT\<extension>\DefaultIcon` and extracted the icon from that file. If not, I used the combination of `SHGetFileInfo` and `ExtractIconEx` WinAPI functions. SHGetFileInfo' returns the index of the system icon for a given file type based on its extension. ExtractIconEx' uses this index to extract the actual icon from the system icon resources.
 
-![Icons for attached documents](document-icons.png)
+![Icons for attached documents](document-icons.webp)
 _Icons for attached documents_
 
 ### Reporting
@@ -211,7 +211,7 @@ goto :EOF
 
 In addition to the installer, I was asked to create an ISO image that could be burned to a CD that would contain all the necessary files and have an autorun feature. However, there was no guarantee that .NET would be installed on the machine where the CD would be used. So I had to create an autorun application using Delphi. So when the disk is inserted, the system reads `autorun.inf` and launches a Delphi application that helps install the necessary dependencies, read the associated documentation, and install the software I developed.
 
-![Autorun application](autorun.png)
+![Autorun application](autorun.webp)
 _Autorun application_
 
 It was interesting to figure out what system requirements should be defined for the end product. The good news is that there were requirements available from the frameworks being used to build the project that I used to define system requirements for my applications.

@@ -5,7 +5,7 @@ categories: [Projects, Web]
 tags: [Angular, JavaScript, TypeScript, NodeJS, Fastify, SQLite, Electron]
 mermaid: false
 img_path: assets/img/spa-web-application-for-small-businesses/
-image: demo.jpg
+image: cover.webp
 ---
 
 This was my longest project so far, which started somewhere in 2008 and ended in 2021. My dad asked me to create a program that would allow him to easily keep track of his business income and expenses without having to learn complex accounting solutions. I built several solutions and changed the tech stack over time to meet his needs and learn something new for myself.
@@ -33,7 +33,7 @@ At first I thought about separate desktop and mobile applications and how to syn
 ### Database
 I decided to stick with SQLite as a lightweight solution that was easy to back up and move. The database schema got a bit bigger with additional tables for employee titles, properties, categories, etc. Also, the schema and the application itself were designed to manage multiple businesses in case he ever wanted to track income/expenses for other ventures separately in the future.
 
-![Database schema](database-schema.png){: width="440" height="350" }
+![Database schema](database-schema.webp){: width="440" height="350" }
 _Database schema_
 
 ### Backend
