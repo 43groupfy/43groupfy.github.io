@@ -26,3 +26,7 @@ $ bundle exec jekyll s
 ```bash
 bundle update jekyll-theme-chirpy
 ```
+
+## Rules
+- Image format is `.webp`
+- Cover image size `1200 x 630` with aspect ratio of `1.91 : 1`
