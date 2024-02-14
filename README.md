@@ -27,6 +27,11 @@ $ bundle exec jekyll s
 bundle update jekyll-theme-chirpy
 ```
 
+# Integrations
+## GoatCounter
+- [Toggle counter to block/enable counter](https://kungfux.goatcounter.com/help/skip-dev#javascript-980)
+> https://example.com#toggle-goatcounter
+
 ## Rules
 - Image format is `.webp`
 - Cover image size `1200 x 630` with aspect ratio of `1.91 : 1`
