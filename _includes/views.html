@@ -1,17 +1,19 @@
 <!-- Views Counter -->
 
 <script>
-  const r = new XMLHttpRequest();
-  r.addEventListener('load', function() {
-      document.querySelector('#views').innerText = JSON.parse(this.responseText).count
-  });
-  const uri = location.pathname.replace(/\/$/, "");
-  r.open('GET', 'https://{{ site.goatcounter.id }}.goatcounter.com/counter/' + encodeURIComponent(uri) + '.json');
-  r.send();
+  const uri = location.pathname.replace(/\/$/, '');
+  const fetchPromise = fetch(`https://{{site.goatcounter.id}}.goatcounter.com/counter/${encodeURIComponent(uri)}.json`);
+
+  fetchPromise
+    .then((response) => response.json())
+    .then((data) => {
+      document.getElementById('views-counter').innerText = data.count;
+      document.getElementById('views').style.visibility = 'visible';
+    });
 </script>
 
 <span>
-  <em id="views">
+  <em id="views-counter">
     ∞
   </em>
 </span>
