@@ -1,11 +1,11 @@
 ---
 title: Make sure your tests can fail
 date: 2022-02-06 19:02:49 +0400
-categories: [Posts, Automated Testing]
+categories: [Posts, Software Testing, Test Automation]
 tags: [Automated Testing]
 mermaid: true
 img_path: assets/img/make-sure-your-tests-can-fail/
-image:
+image: cover.webp
 ---
 
 Over the past few months, I've encountered a recurring situation during code reviews for newly developed automated end-to-end tests across various projects and programming languages. It's understandable to make mistakes in the code, but there is a different aspect of this situation.

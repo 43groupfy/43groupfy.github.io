@@ -1,11 +1,11 @@
 ---
 title: Choosing a selector strategy
 date: 2021-10-15 11:06:44 +0400
-categories: [Posts, Automated Testing]
+categories: [Posts, Software Testing, Test Automation]
 tags: [Web automation, Testing Library, Playwright]
 mermaid: false
 img_path: /assets/img/choosing-a-selector-strategy/
-image:
+image: cover.webp
 ---
 
 What is a selector? In terms of web automation testing, a selector refers to the mechanism or technique used to locate and identify an element on a web page. Common selector types include ID, Name, Class, XPath, CSS, Link text etc.
