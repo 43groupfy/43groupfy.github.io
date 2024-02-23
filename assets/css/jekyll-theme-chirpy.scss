@@ -16,3 +16,17 @@ div.highlighter-rouge {
     display: flex;
     justify-content: center;
 }
+
+video {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    + em {
+      display: block;
+      text-align: center;
+      font-style: normal;
+      font-size: 80%;
+      padding: 0;
+      color: #6d6c6c;
+    }
+  }

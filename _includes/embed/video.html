@@ -1,0 +1,9 @@
+{% assign url = include.src %}
+{% assign src = '/' | append: page.img_path | default: '' | append: '/' | append: url %}
+
+<p>
+  <video controls autoplay loop=true>
+    <source src="{{ src }}">
+  </video>
+  <em>{{ include.title }}</em>
+</p>
