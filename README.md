@@ -22,16 +22,20 @@ $ bundle exec jekyll --drafts
 $ bundle exec jekyll s
 ```
 
-- Upgrade theme
-```bash
-bundle update jekyll-theme-chirpy
+## Upgrade
+1. Update version number
+```diff
+- gem "jekyll-theme-chirpy", "~> 3.2"
++ gem "jekyll-theme-chirpy", "~> 4.0"
 ```
+
+2. Run `bundle update`
 
 # Integrations
 ## GoatCounter
 - [Toggle counter to block/enable counter](https://kungfux.goatcounter.com/help/skip-dev#javascript-980)
 > https://example.com#toggle-goatcounter
 
-## Rules
+# Rules
 - Image format is `.webp`
 - Cover image size `1200 x 630` with aspect ratio of `1.91 : 1`
