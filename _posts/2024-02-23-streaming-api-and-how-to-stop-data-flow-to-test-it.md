@@ -5,6 +5,7 @@ categories: [Posts, Software Development]
 tags: [ASP.NET, C#, API]
 mermaid: true
 img_path: assets/img/streaming-api-and-how-to-stop-data-flow-to-test-it/
+video_path: assets/video/streaming-api-and-how-to-stop-data-flow-to-test-it/
 image:
 ---
 
@@ -104,7 +105,7 @@ Now, when I call the `/weather` endpoint, it returns a new piece of data twice p
 
 Here is a live demo of this request/response behavior using regular browser.
 
-{% include embed/video.html src='demo.mp4' title='Streaming API live demo.' %}
+{% include embed/customvideo.html src='demo.mp4' title='Streaming API live demo.' autoplay=true loop=true %}
 
 You may have noticed that JSON starts with a `[` symbol, which means that this is the beginning of an array that never actually ends. When the client disconnects, the method execution is aborted with a `CancellationToken` and no more data is passed to the client. This leads to some challenges that I'll discuss below.
 

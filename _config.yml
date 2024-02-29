@@ -55,6 +55,13 @@ webmaster_verifications:
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
+# Web Analytics Settings
+analytics:
+  google:
+    id: G-RZZNB5F9VM # fill in your Google Analytics ID
+  goatcounter:
+    id: kungfux # fill in your GoatCounter ID
+
 google_analytics:
   id: G-RZZNB5F9VM # fill in your Google Analytics ID
 
@@ -127,6 +134,7 @@ pwa:
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
     deny_paths:
+      /assets/video
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10

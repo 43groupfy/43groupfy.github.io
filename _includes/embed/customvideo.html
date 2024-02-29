@@ -1,0 +1,8 @@
+{% assign src = site.url | append: '/' | append: page.video_path | append: include.src %}
+{% assign poster = include.poster %}
+{% assign title = include.title %}
+{% assign autoplay = include.autoplay %}
+{% assign loop = include.loop %}
+{% assign muted = include.muted %}
+
+{% include embed/video.html src=src poster=poster title=title autoplay=autoplay loop=loop muted=muted %}
