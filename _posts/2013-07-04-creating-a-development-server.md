@@ -1,6 +1,7 @@
 ---
 title: Creating a development server
 date: 2013-07-04 00:18:57 +0200
+last_modified_at: 2013-07-04 00:18:57 +0200
 categories: [Projects, DevOps]
 tags: [Linux, Bash, SVN, Munin, Jenkins, Redmine, PHP, MySQL]
 mermaid: false

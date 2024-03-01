@@ -1,6 +1,7 @@
 ---
 title: Choosing a selector strategy
 date: 2021-10-15 11:06:44 +0400
+last_modified_at: 2021-10-15 11:06:44 +0400
 categories: [Posts, Software Testing, Test Automation]
 tags: [Web automation, Testing Library, Playwright]
 mermaid: false

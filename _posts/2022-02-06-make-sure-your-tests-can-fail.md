@@ -1,6 +1,7 @@
 ---
 title: Make sure your tests can fail
 date: 2022-02-06 19:02:49 +0400
+last_modified_at: 2022-02-06 19:02:49 +0400
 categories: [Posts, Software Testing, Test Automation]
 tags: [Automated Testing]
 mermaid: true

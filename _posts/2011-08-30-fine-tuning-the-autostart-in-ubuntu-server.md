@@ -1,6 +1,7 @@
 ---
 title: Fine-tuning the autostart in Ubuntu Server
 date: 2011-08-30 22:41:12 +0200
+last_modified_at: 2011-08-30 22:41:12 +0200
 categories: [Posts, DevOps]
 tags: [Ubuntu, Linux, System-V, VirtualBox]
 mermaid: false

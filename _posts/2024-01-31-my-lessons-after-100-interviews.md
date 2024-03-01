@@ -1,6 +1,7 @@
 ---
 title: My lessons after 100 interviews
 date: 2024-01-31 10:48:00 +0400
+last_modified_at: 2024-01-31 10:48:00 +0400
 categories: [Posts, Career]
 tags: [Interviews]
 mermaid: false

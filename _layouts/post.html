@@ -22,12 +22,6 @@ tail_includes:
         {% include datetime.html date=page.date tooltip=true lang=lang %}
       </span>
 
-      <!-- views count  -->
-      <span id="views" style="visibility: hidden;">
-        {% include views.html tooltip=true lang=lang %}
-        {{ site.data.locales[lang].post.pageview_measure }}
-      </span>
-
       <!-- lastmod date -->
       {% if page.last_modified_at and page.last_modified_at != page.date %}
         <span>
@@ -36,6 +30,12 @@ tail_includes:
         </span>
       {% endif %}
 
+      <!-- views count  -->
+      <span id="views" style="visibility: hidden;">
+        {% include views.html tooltip=true lang=lang %}
+        {{ site.data.locales[lang].post.pageview_measure }}
+      </span>
+      
       {% if page.image %}
         {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
         {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
@@ -80,7 +80,6 @@ tail_includes:
           </em>
         </span>
 
-        <em></em>
         <!-- read time -->
         {% include read-time.html content=content prompt=true lang=lang %}
       </div>

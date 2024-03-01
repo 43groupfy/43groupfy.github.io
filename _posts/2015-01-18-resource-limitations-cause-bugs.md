@@ -1,6 +1,7 @@
 ---
 title: Resource limitations cause bugs
 date: 2015-01-18 16:00:21 +0300
+last_modified_at: 2015-01-18 16:00:21 +0300
 categories: [Posts, Software Testing]
 tags: [Testing]
 mermaid: false

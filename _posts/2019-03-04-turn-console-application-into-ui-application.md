@@ -1,6 +1,7 @@
 ---
 title: Turn a console application into a UI application
 date: 2019-03-04 21:44:37 +0300
+last_modified_at: 2019-03-04 21:44:37 +0300
 categories: [Projects, Desktop]
 tags: [DotNet, C#, WinForms, MVC]
 mermaid: false

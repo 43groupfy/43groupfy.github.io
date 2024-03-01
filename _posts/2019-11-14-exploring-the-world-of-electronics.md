@@ -1,6 +1,7 @@
 ---
 title: Exploring the world of electronics
 date: 2019-11-14 03:12:39 +0300
+last_modified_at: 2019-11-14 03:12:39 +0300
 categories: [Posts, Electronics]
 tags: [C++, Arduino, ESP8266, RaspberryPi, MQTT, IoT]
 mermaid: false
