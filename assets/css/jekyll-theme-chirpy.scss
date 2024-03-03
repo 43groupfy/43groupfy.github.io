@@ -1,43 +1,163 @@
----
+--- 
 ---
 
 @import 'main';
 
 img.mfp-img {
-    background-color: grey;
+  background-color: grey;
 }
 
 div.highlighter-rouge {
-    max-height: 70vh;
-    overflow-y: auto;
+  max-height: 70vh;
+  overflow-y: auto;
 }
 
 .align-center {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .embed-video {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 1rem;
-    aspect-ratio: 16 / 9;
-  
-    @extend %rounded;
-  
-    &.twitch {
-      aspect-ratio: 310 / 189;
-    }
-  
-    &.file {
-      display: block;
-      width: auto;
-      height: auto;
-      max-width: 100%;
-      max-height: 100%;
-      margin: auto;
-      margin-bottom: 0;
-    }
-  
-    @extend %img-caption;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1rem;
+  aspect-ratio: 16 / 9;
+
+  @extend %rounded;
+
+  &.twitch {
+    aspect-ratio: 310 / 189;
   }
+
+  &.file {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    margin-bottom: 0;
+  }
+
+  @extend %img-caption;
+}
+
+// Chat
+
+$scrollbar-width: 10px;
+$chat-accent-color: #717070;
+$chat-bgd-color: #262626;
+$chat-thread-msg-arrow-size: 15px;
+$chat-thread-avatar-size: 50px;
+$chat-thread-offset: #{$chat-thread-avatar-size + 30px};
+
+::-webkit-scrollbar {
+  width: $scrollbar-width;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: $scrollbar-width;
+  background-color: $chat-bgd-color;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: $scrollbar-width;
+  background-color: $chat-accent-color;
+}
+
+div.chat-content {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.chat-thread {
+  margin: 24px auto 0 auto;
+  padding: 0 20px 0 0;
+  list-style: none;
+  overflow-x: hidden;
+}
+
+.chat-thread li {
+  position: relative;
+  clear: both;
+  display: inline-block;
+  padding: 16px 40px 16px 20px;
+  margin: 0 0 20px 0;
+  border-radius: 10px;
+  background-color: $chat-bgd-color;
+}
+
+// Chat - Avatar
+.chat-thread li:before {
+  position: absolute;
+  top: 0;
+  width: $chat-thread-avatar-size;
+  height: $chat-thread-avatar-size;
+  border-radius: $chat-thread-avatar-size;
+  content: '';
+}
+
+// Chat - Speech Bubble Arrow
+.chat-thread li:after {
+  position: absolute;
+  top: $chat-thread-msg-arrow-size;
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: $chat-thread-msg-arrow-size solid $chat-bgd-color;
+}
+
+.chat-thread li.me {
+  animation: show-chat-even 0.15s 1 ease-in;
+  -moz-animation: show-chat-even 0.15s 1 ease-in;
+  -webkit-animation: show-chat-even 0.15s 1 ease-in;
+  float: left;
+  margin-left: $chat-thread-offset;
+  color: rgb(238, 238, 238);
+}
+
+.chat-thread li.me:before {
+  left: -$chat-thread-offset;
+  background-image: url('/assets/img/avatar-chat.jpg');
+}
+
+.chat-thread li.me:after {
+  border-left: $chat-thread-msg-arrow-size solid transparent;
+  left: -$chat-thread-msg-arrow-size;
+}
+
+.chat-thread li.guest {
+  animation: show-chat-odd 0.15s 1 ease-in;
+  -moz-animation: show-chat-odd 0.15s 1 ease-in;
+  -webkit-animation: show-chat-odd 0.15s 1 ease-in;
+  float: right;
+  margin-right: $chat-thread-offset;
+  color: #b0b0b0;
+}
+
+.chat-thread li.guest:before {
+  right: -$chat-thread-offset;
+  background-image: url('/assets/img/guest-chat.jpg');
+}
+
+.chat-thread li.guest:after {
+  border-right: $chat-thread-msg-arrow-size solid transparent;
+  right: -$chat-thread-msg-arrow-size;
+}
+
+.chat-window {
+  background-color: $chat-bgd-color;
+  border-radius: 10px;
+  margin: 24px 12px;
+  padding: 0 12px;
+}
+
+.chat-window-message {
+  width: 100%;
+  height: 48px;
+  background: none;
+  color: #b0b0b0;
+  border: 0;
+  border-bottom: 1px solid $chat-bgd-color;
+  outline: none;
+}

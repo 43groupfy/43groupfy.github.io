@@ -1,0 +1,74 @@
+---
+layout: page
+---
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script> -->
+
+<div class="chat">
+  <div id="chat-content" class="chat-content">
+    <ul id="chat-thread" class="chat-thread">
+      <li class="me">
+        Hello. Nice to meet you. What would you like to ask?
+      </li>
+    </ul>
+  </div>
+
+  <form
+    class="chat-window"
+    onsubmit="event.preventDefault(); sendMessage(event)"
+  >
+    <input
+      id="chat-window-input"
+      class="chat-window-message"
+      name="chat-window-message"
+      type="text"
+      autocomplete="off"
+      autofocus
+      placeholder="Type your message here"
+      required
+      pattern="[A-Za-z]+"
+    />
+  </form>
+</div>
+
+<script>
+  function sendMessage() {
+    const message = getMessageAndLockInput();
+    postMessage("guest", message);
+    setTimeout(() => {
+      postMessage("me", "Sorry, I can't reply at the moment.");
+      unlockInput();
+    }, 1000);
+  }
+
+  function postMessage(who, text) {
+    const chatThread = document.getElementById("chat-thread");
+
+    const replyThread = document.createElement("li");
+    replyThread.classList.add(who);
+    const reply = document.createTextNode(text);
+    replyThread.appendChild(reply);
+
+    chatThread.appendChild(replyThread);
+    scrollToBottom();
+  }
+
+  function unlockInput() {
+    const input = document.getElementById("chat-window-input");
+    input.disabled = false;
+    input.focus();
+  }
+
+  function getMessageAndLockInput() {
+    const input = document.getElementById("chat-window-input");
+    const message = input.value;
+    input.disabled = true;
+    input.value = "";
+    return message;
+  }
+
+  function scrollToBottom() {
+    let chat = document.getElementById("chat-content");
+    chat.scrollTop = chat.scrollHeight;
+  }
+</script>
