@@ -1,6 +1,11 @@
 # Blog
 Check it out at [kungfux.github.io](https://kungfux.github.io)
 
+# Rules
+- Image format is `.webp`
+- Cover image size `1200 x 630` with aspect ratio of `1.91 : 1`
+
+# Development
 ## Commands
 - Restore
 ```bash
@@ -31,11 +36,24 @@ $ bundle exec jekyll s
 
 2. Run `bundle update`
 
-# Integrations
-## GoatCounter
-- [Toggle counter to block/enable counter](https://kungfux.goatcounter.com/help/skip-dev#javascript-980)
-> https://example.com#toggle-goatcounter
+## Customizations
 
-# Rules
-- Image format is `.webp`
-- Cover image size `1200 x 630` with aspect ratio of `1.91 : 1`
+- Embed video file
+```
+_includes\embed\video.html
+_includes\embed\customvideo.html
+assets\css\jekyll-theme-chirpy.scss
+```
+
+- Add page views counter
+```
+_includes\views.html
+_layouts\post.html
+```
+
+- Wrap text in code blocks
+- Adjust styles for schemas and code blocks
+- Align lists by center
+```
+assets/css/jekyll-theme-chirpy.scss
+```
