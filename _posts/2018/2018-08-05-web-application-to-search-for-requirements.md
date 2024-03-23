@@ -1,5 +1,6 @@
 ---
 title: Web application to search for requirements
+description: Web application project to search for requirements.
 date: 2018-08-05 23:11:02 +0300
 last_modified_at: 2018-08-05 23:11:02 +0300
 categories: [Projects, Web]
@@ -16,6 +17,9 @@ Later, I wanted to share this application with others on my team. So I turned it
 Over time, we discovered that the documents we had were actually exported from an external system that we did not have access to through the official requirements management software. However, we were allowed to connect to that system's database. So I had to update my web application to connect directly to the external database and perform searches there instead of relying on my local database. The only problem was that my existing solution was not very good for this purpose. Since the application had become quite popular, I needed to make sure it could handle a larger load and be ready for deployment on a dedicated server. So I had to rethink the future solution with the new requirements in mind.
 
 ## Demo
+![Start page](demo.webp)
+_Start page_
+
 {% include embed/youtube.html id='UAKtpuv1fPQ' %}
 
 ## Requirements

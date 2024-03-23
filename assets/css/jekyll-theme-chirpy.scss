@@ -3,6 +3,7 @@
 
 @import 'main';
 
+// Use blue accent color
 %link-hover {
   color: #007bff !important;
   border-bottom: 1px solid #007bff;
@@ -10,6 +11,11 @@
 
 %no-bottom-border {
   border-bottom: none;
+}
+
+// Use single line post title
+#post-list .card .card-body .card-title {
+  -webkit-line-clamp: 1;
 }
 
 @import 'post';

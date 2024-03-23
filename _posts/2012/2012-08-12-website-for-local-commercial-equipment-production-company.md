@@ -1,17 +1,21 @@
 ---
 title: Website for local commercial equipment production company
+description: Website and CMS application project for a local commercial company.
 date: 2012-08-12 22:49:02 +0200
 last_modified_at: 2012-08-12 22:49:02 +0200
 categories: [Projects, Web, Desktop]
 tags: [DotNet, C#, WinForms, PHP, MySQL, HTML, JavaScript]
 mermaid: true
-img_path: assets/img/website-for-local-commercial-equipment-production-company/
+img_path: /assets/img/website-for-local-commercial-equipment-production-company/
 image: cover.webp
 ---
 
 This was one of the first projects I was asked to work on as a developer while I was still a student. The client wanted a website to showcase their products and services, but also needed an admin panel to manage content on the backend to make it easier for them to manage everything without having to rely on a developer every time. This was a great opportunity for me to learn and apply my skills.
 
 I'd never worked on design and had no experience with Photoshop, so I asked my classmate to do the design while I focused on the functionality and backend of the website. Today, there are many website templates and UI kits available to make things easier. And with modern frameworks like Angular or React, we don't have to worry about design and can focus on coding. But those days were different.
+
+![Demo](demo.webp)
+_Demo._
 
 ## Requirements
 - Create a website

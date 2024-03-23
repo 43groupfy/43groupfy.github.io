@@ -1,12 +1,13 @@
 ---
-title: Web API for remote tasks execution and testing
+title: Web API to run tasks remotely
+description: Web API project to run tasks remotely and write automated tests using it.
 date: 2023-08-01 13:31:18 +0400
 last_modified_at: 2023-08-01 13:31:18 +0400
 categories: [Projects, Web]
 tags: [DotNet, C#, ASP.NET, CodeceptJS, API, Test automation]
 mermaid: true
-img_path: /assets/img/web-api-for-remote-tasks-execution-and-testing/
-image:
+img_path: /assets/img/web-api-to-run-tasks-remotely/
+image: cover.webp
 ---
 
 Sometimes there is no "standard" way to do things, as in this example. The team had to brainstorm to figure out how to automate E2E tests that involve running tasks from the remote machine. Imagine, we need to log in to a website, create some data, then execute a task that resides on a dedicated server and validate that there are some changes happened to our data in a website. How can we do this remotely and automatically? Manually, this process required connecting to a remote machine and manually executing tasks. In production, this is done automatically on schedule, so there is no built-in logic to do it on demand.

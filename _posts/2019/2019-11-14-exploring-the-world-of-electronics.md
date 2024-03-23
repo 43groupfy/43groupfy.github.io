@@ -1,11 +1,12 @@
 ---
 title: Exploring the world of electronics
+description: My journey exploring electronics, microcontrollers and IoT.
 date: 2019-11-14 03:12:39 +0300
 last_modified_at: 2019-11-14 03:12:39 +0300
 categories: [Posts, Electronics]
 tags: [C++, Arduino, ESP8266, RaspberryPi, MQTT, IoT]
 mermaid: false
-img_path: assets/img/exploring-the-world-of-electronics/
+img_path: /assets/img/exploring-the-world-of-electronics/
 image: cover.webp
 ---
 
@@ -22,7 +23,12 @@ The next step was to buy a list of things like electronic components: resistors,
 _DYI power supply_
 
 ## Circuits
-I started by building simple circuits, mentioned in the book, using a breadboard, or soldering things together. Eventually I realized that testing each circuit on a breadboard takes time. Instead, I started using software to simulate electronic circuits. This led to a great discovery. I tried to build a circuit from a book to learn the physics of capacitors and how they work. But for some reason it did not work. Later I found out that this particular circuit did not work because it used a real world characteristic of many electronic components - they are not perfect! Every component has tolerances. This means that it is unlikely that 2 components will have the same resistance or capacitance values. Once I built the circuit on a breadboard, it worked like a charm. The whole idea of the solution was based on this fact.
+I started by building simple circuits, mentioned in the book, using a breadboard, or soldering things together.
+
+![Shift register circuit on breadboard](breadboard.webp)
+_Shift register circuit on breadboard_
+
+Eventually I realized that testing each circuit on a breadboard takes time. Instead, I started using software to simulate electronic circuits. This led to a great discovery. I tried to build a circuit from a book to learn the physics of capacitors and how they work. But for some reason it did not work. Later I found out that this particular circuit did not work because it used a real world characteristic of many electronic components - they are not perfect! Every component has tolerances. This means that it is unlikely that 2 components will have the same resistance or capacitance values. Once I built the circuit on a breadboard, it worked like a charm. The whole idea of the solution was based on this fact.
 
 ![Oscillation generator circuit](exp11.webp)
 _Oscillation generator circuit_

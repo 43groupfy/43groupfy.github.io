@@ -1,12 +1,13 @@
 ---
 title: Test framework for Microsoft Office add-in
+description: Test framework project that integrates web and desktop automation.
 date: 2021-06-14 18:01:24 +0300
 last_modified_at: 2021-06-14 18:01:24 +0300
 categories: [Projects, Desktop, Web]
 tags: [DotNet, C#, Selenium, FlaUI, Desktop automation, Web automation]
 mermaid: true
-img_path: assets/img/test-framework-for-microsoft-office-add-in/
-image:
+img_path: /assets/img/test-framework-for-microsoft-office-add-in/
+image: cover.webp
 ---
 
 In general, this is a typical task for any test automation engineer to spin up a test project for a web or desktop application. However, sometimes there are projects that require a bit more effort and research to get started. Testing Office add-ins is one such case.

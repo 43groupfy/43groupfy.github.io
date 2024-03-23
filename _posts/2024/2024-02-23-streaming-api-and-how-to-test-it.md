@@ -1,13 +1,14 @@
 ---
-title: Streaming API and how to stop data flow to test it
+title: Streaming API and how to test it
+description: What is Streaming API? How to stop endless data flow in tests?
 date: 2024-02-23 04:32:16 +0400
 last_modified_at: 2024-02-23 04:32:16 +0400
 categories: [Posts, Software Development]
 tags: [ASP.NET, C#, API]
 mermaid: true
-img_path: assets/img/streaming-api-and-how-to-stop-data-flow-to-test-it/
-video_path: assets/video/streaming-api-and-how-to-stop-data-flow-to-test-it/
-image:
+img_path: /assets/img/streaming-api-and-how-to-test-it/
+video_path: assets/video/streaming-api-and-how-to-test-it/
+image: cover.webp
 ---
 
 There is a well-known and widely used term called REST API. I'm pretty sure you've had to deal with it when developing and testing software products. However, there are other types of APIs, not only by response type, but by the mechanism of keeping the connection open to provide constant chunks of data, or so called stateful API. Let's look at and compare the following two: REST and Streaming APIs.

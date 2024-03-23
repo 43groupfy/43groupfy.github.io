@@ -1,11 +1,12 @@
 ---
 title: Automation by image search
+description: Automation project utilizing image search to find elements to interact with.
 date: 2022-10-18 23:05:59 +0400
 last_modified_at: 2022-10-18 23:05:59 +0400
 categories: [Projects, Desktop, Web]
 tags: [Python, Desktop automation, Web automation]
 mermaid: false
-img_path: assets/img/automation-by-image-search/
+img_path: /assets/img/automation-by-image-search/
 image: cover.webp
 ---
 
