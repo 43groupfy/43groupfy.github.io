@@ -30,8 +30,8 @@ $ bundle exec jekyll s
 ## Upgrade
 1. Update version number
 ```diff
-- gem "jekyll-theme-chirpy", "~> 3.2"
-+ gem "jekyll-theme-chirpy", "~> 4.0"
+- gem "jekyll-theme-chirpy", "= 6.5.4"
++ gem "jekyll-theme-chirpy", "= 6.5.5"
 ```
 
 2. Run `bundle update`
