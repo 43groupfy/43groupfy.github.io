@@ -3,6 +3,7 @@ title: Web API to run tasks remotely
 description: Web API project to run tasks remotely and write automated tests using it.
 date: 2023-08-01 13:31:18 +0400
 last_modified_at: 2023-08-01 13:31:18 +0400
+published: true
 categories: [Projects, Web]
 tags: [DotNet, C#, ASP.NET, CodeceptJS, API, Test automation]
 mermaid: true

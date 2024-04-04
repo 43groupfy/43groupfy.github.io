@@ -3,6 +3,7 @@ title: Resource limitations cause bugs
 description: Overview of interesting bugs caused by resource limitations.
 date: 2015-01-18 16:00:21 +0300
 last_modified_at: 2015-01-18 16:00:21 +0300
+published: true
 categories: [Posts, Software Testing]
 tags: [Testing]
 mermaid: false

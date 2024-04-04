@@ -3,6 +3,7 @@ title: Creating a development server
 description: Project of setting up a self-hosted development server with useful tools.
 date: 2013-07-04 00:18:57 +0200
 last_modified_at: 2013-07-04 00:18:57 +0200
+published: true
 categories: [Projects, DevOps]
 tags: [Linux, Bash, SVN, Munin, Jenkins, Redmine, PHP, MySQL]
 mermaid: false

@@ -3,6 +3,7 @@ title: Choosing a selector strategy
 description: Considerations when choosing a selector strategy for web automation tests.
 date: 2021-10-15 11:06:44 +0400
 last_modified_at: 2021-10-15 11:06:44 +0400
+published: true
 categories: [Posts, Software Testing, Test Automation]
 tags: [Web automation, Testing Library, Playwright]
 mermaid: false

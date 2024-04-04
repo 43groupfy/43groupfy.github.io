@@ -3,6 +3,7 @@ title: SPA web application for small businesses
 description: SPA project for small businesses to manage income, expenses and basic reports.
 date: 2021-11-10 21:16:09 +0300
 last_modified_at: 2021-11-10 21:16:09 +0300
+published: true
 categories: [Projects, Web]
 tags: [Angular, JavaScript, TypeScript, NodeJS, Fastify, SQLite, Electron]
 mermaid: false

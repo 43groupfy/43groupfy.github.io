@@ -3,6 +3,7 @@ title: Make sure your tests can fail
 description: Reflections on writing false passing tests.
 date: 2022-02-06 19:02:49 +0400
 last_modified_at: 2022-02-06 19:02:49 +0400
+published: true
 categories: [Posts, Software Testing, Test Automation]
 tags: [Automated Testing]
 mermaid: true

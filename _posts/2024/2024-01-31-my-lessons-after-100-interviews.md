@@ -3,6 +3,7 @@ title: My lessons after 100 interviews
 description: Reflections on interviews from both sides of the table based on 100+ interviews.
 date: 2024-01-31 10:48:00 +0400
 last_modified_at: 2024-01-31 10:48:00 +0400
+published: true
 categories: [Posts, Career]
 tags: [Interviews]
 mermaid: false

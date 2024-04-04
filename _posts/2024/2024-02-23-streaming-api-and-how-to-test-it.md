@@ -3,6 +3,7 @@ title: Streaming API and how to test it
 description: What is Streaming API? How to stop endless data flow in tests?
 date: 2024-02-23 04:32:16 +0400
 last_modified_at: 2024-02-23 04:32:16 +0400
+published: true
 categories: [Posts, Software Development]
 tags: [ASP.NET, C#, API]
 mermaid: true

@@ -3,6 +3,7 @@ title: Browser extension to add what is missing
 description: Browser extension project to add missing features to a web application for testing team.
 date: 2023-09-20 23:18:32 +0400
 last_modified_at: 2023-09-20 23:18:32 +0400
+published: true
 categories: [Projects, Web]
 tags: [Javascript, Webpack]
 mermaid: true

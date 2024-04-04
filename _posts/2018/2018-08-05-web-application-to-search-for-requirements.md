@@ -3,6 +3,7 @@ title: Web application to search for requirements
 description: Web application project to search for requirements.
 date: 2018-08-05 23:11:02 +0300
 last_modified_at: 2018-08-05 23:11:02 +0300
+published: true
 categories: [Projects, Web]
 tags: [Java, JSP, JavaScript, Tomcat, Bootstrap, jQuery]
 mermaid: true
