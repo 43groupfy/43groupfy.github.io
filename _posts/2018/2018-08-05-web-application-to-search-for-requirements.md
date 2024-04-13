@@ -25,7 +25,7 @@ _Start page_
 {% include embed/youtube.html id='UAKtpuv1fPQ' %}
 
 ## Requirements
-- Develop a web application to search for requirements stored in an external Oracle database.
+- Develop a web application to search for requirements stored in an external Oracle database
 - Be able to handle higher load as it will be used by multiple teams
 - Improve UX/UI to look more professional using Bootstrap
 - Add more functionality to support popular search queries

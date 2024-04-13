@@ -12,6 +12,10 @@ image: cover.webp
 ---
 
 ## Story
+
+*[Fastify]: Fast and low overhead web framework, for Node.js
+*[JWT]: JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties.
+
 This was my longest project so far, which started somewhere in 2008 and ended in 2021. My dad asked me to create a program that would allow him to easily keep track of his business income and expenses without having to learn complex accounting solutions. I built several solutions and changed the tech stack over time to meet his needs and learn something new for myself.
 
 The very first version I built in 2008 was a desktop application using C# and WinForms with a simple Microsoft Access database. It had a single screen to add income/expenses and calculate the total, average per year, or per selected range. It was easy to build and super usable for my dad.
@@ -41,9 +45,6 @@ I decided to stick with SQLite as a lightweight solution that was easy to back u
 _Database schema_
 
 ### Backend
-*[Fastify]: Fast and low overhead web framework, for Node.js
-*[JWT]: JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties.
-
 The server side, which is basically a web API, is written in Javascript using Fastify. Authentication is done using JWT. User credentials are salted and stored as hashes in the database.
 
 The only custom thing I did, taking into account that my dad doesn't like to use strong passwords, is to implement brute force protection. If the user enters the wrong credentials, all subsequent login attempts will fail for a certain "ban" period. This makes brute force useless without a dictionary.
