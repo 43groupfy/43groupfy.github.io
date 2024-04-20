@@ -7,7 +7,7 @@ published: true
 categories: [Posts, Electronics]
 tags: [C++, Arduino, ESP8266, RaspberryPi, MQTT, IoT]
 mermaid: false
-img_path: /assets/img/exploring-the-world-of-electronics/
+img_path: /assets/posts/img/2019/exploring-the-world-of-electronics/
 image: cover.webp
 ---
 

@@ -7,7 +7,7 @@ published: true
 categories: [Posts, Career]
 tags: [Interviews]
 mermaid: false
-img_path: /assets/img/my-lessons-after-100-interviews/
+img_path: /assets/posts/img/2024/my-lessons-after-100-interviews/
 image: cover.webp
 ---
 

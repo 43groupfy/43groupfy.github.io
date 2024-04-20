@@ -7,7 +7,7 @@ published: true
 categories: [Posts, Software Testing, Test Automation]
 tags: [Web automation, Testing Library, Playwright]
 mermaid: false
-img_path: /assets/img/choosing-a-selector-strategy/
+img_path: /assets/posts/img/2021/choosing-a-selector-strategy/
 image: cover.webp
 ---
 

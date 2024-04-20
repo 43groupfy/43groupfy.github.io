@@ -7,8 +7,8 @@ published: true
 categories: [Posts, Software Development]
 tags: [ASP.NET, C#, API]
 mermaid: true
-img_path: /assets/img/streaming-api-and-how-to-test-it/
-video_path: assets/video/streaming-api-and-how-to-test-it/
+img_path: /assets/posts/img/2024/streaming-api-and-how-to-test-it/
+video_path: assets/posts/video/2024/streaming-api-and-how-to-test-it/
 image: cover.webp
 ---
 

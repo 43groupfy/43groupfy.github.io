@@ -7,7 +7,7 @@ published: true
 categories: [Projects, Web, Desktop]
 tags: [DotNet, C#, WinForms, PHP, MySQL, HTML, JavaScript]
 mermaid: true
-img_path: /assets/img/website-for-local-commercial-equipment-production-company/
+img_path: /assets/posts/img/2012/website-for-local-commercial-equipment-production-company/
 image: cover.webp
 ---
 

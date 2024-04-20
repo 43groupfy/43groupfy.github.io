@@ -7,7 +7,7 @@ published: true
 categories: [Posts, Software Testing]
 tags: [Testing]
 mermaid: false
-img_path: /assets/img/resource-limitations-cause-bugs/
+img_path: /assets/posts/img/2015/resource-limitations-cause-bugs/
 image: cover.webp
 ---
 

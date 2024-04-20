@@ -7,7 +7,7 @@ published: true
 categories: [Projects, Desktop, Web]
 tags: [DotNet, C#, Selenium, FlaUI, Desktop automation, Web automation]
 mermaid: true
-img_path: /assets/img/test-framework-for-microsoft-office-add-in/
+img_path: /assets/posts/img/2021/test-framework-for-microsoft-office-add-in/
 image: cover.webp
 ---
 

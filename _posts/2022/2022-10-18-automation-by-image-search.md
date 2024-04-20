@@ -7,7 +7,7 @@ published: true
 categories: [Projects, Desktop, Web]
 tags: [Python, Desktop automation, Web automation]
 mermaid: false
-img_path: /assets/img/automation-by-image-search/
+img_path: /assets/posts/img/2022/automation-by-image-search/
 image: cover.webp
 ---
 

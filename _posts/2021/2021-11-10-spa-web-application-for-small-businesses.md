@@ -7,7 +7,7 @@ published: true
 categories: [Projects, Web]
 tags: [Angular, JavaScript, TypeScript, NodeJS, Fastify, SQLite, Electron]
 mermaid: false
-img_path: /assets/img/spa-web-application-for-small-businesses/
+img_path: /assets/posts/img/2021/spa-web-application-for-small-businesses/
 image: cover.webp
 ---
 

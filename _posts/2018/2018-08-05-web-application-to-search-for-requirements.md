@@ -7,7 +7,7 @@ published: true
 categories: [Projects, Web]
 tags: [Java, JSP, JavaScript, Tomcat, Bootstrap, jQuery]
 mermaid: true
-img_path: /assets/img/web-application-to-search-for-requirements/
+img_path: /assets/posts/img/2018/web-application-to-search-for-requirements/
 image: cover.webp
 ---
 

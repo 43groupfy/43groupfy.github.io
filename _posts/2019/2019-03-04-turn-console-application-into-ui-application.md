@@ -7,7 +7,7 @@ published: true
 categories: [Projects, Desktop]
 tags: [DotNet, C#, WinForms, MVC]
 mermaid: false
-img_path: /assets/img/turn-console-application-into-ui-application/
+img_path: /assets/posts/img/2019/turn-console-application-into-ui-application/
 image: cover.webp
 ---
 
