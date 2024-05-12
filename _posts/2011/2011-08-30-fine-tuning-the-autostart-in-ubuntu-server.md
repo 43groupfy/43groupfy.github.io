@@ -7,10 +7,11 @@ published: true
 categories: [Posts, DevOps]
 tags: [Ubuntu, Linux, System-V, VirtualBox]
 mermaid: false
-img_path: /assets/posts/img/2011/fine-tuning-the-autostart-in-ubuntu-server/
+media_subpath: /assets/posts/img/2011/fine-tuning-the-autostart-in-ubuntu-server/
 image: cover.webp
 ---
 
+## Introduction
 The purpose of this post is to familiarize with the principles of autostart in the Ubuntu operating system using Ubuntu Server 10.04 LTS as an example and to demonstrate the configuration of a virtual machine autostart running under VirtualBox, and the correct termination of the latter in automatic mode when shutting down Ubuntu Server.
 
 > The example below does not apply to customizing the autostart of graphical applications for a specific system user in desktop versions of Ubuntu. To do this, use the "Running Applications" from the Ubuntu main menu

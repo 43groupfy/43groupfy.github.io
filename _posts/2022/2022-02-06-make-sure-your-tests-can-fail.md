@@ -7,13 +7,14 @@ published: true
 categories: [Posts, Software Testing, Test Automation]
 tags: [Automated Testing]
 mermaid: true
-img_path: /assets/posts/img/2022/make-sure-your-tests-can-fail/
+media_subpath: /assets/posts/img/2022/make-sure-your-tests-can-fail/
 image: cover.webp
 ---
 
+## Introduction
 Over the past few months, I've encountered a recurring situation during code reviews for newly developed automated end-to-end tests across various projects and programming languages. It's understandable to make mistakes in the code, but there is a different aspect of this situation.
 
-## Case
+## Case study
 Let me share an example so we can go through it together. Imagine a test that needs to verify that some data in the list appears ordered in the UI.
 
 <pre class="align-center">

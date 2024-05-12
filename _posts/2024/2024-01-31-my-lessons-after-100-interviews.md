@@ -7,10 +7,11 @@ published: true
 categories: [Posts, Career]
 tags: [Interviews]
 mermaid: false
-img_path: /assets/posts/img/2024/my-lessons-after-100-interviews/
+media_subpath: /assets/posts/img/2024/my-lessons-after-100-interviews/
 image: cover.webp
 ---
 
+## Introduction
 People can have such different experiences with interviews. The reason is that the people involved in the interview process have different experiences and may have a variety of overt and covert agendas. In some cases, the interviewer may not be interested or motivated to conduct the interview, and the candidate may not be either. Let's look at the process from both sides and see what we can and can't do about interviews based on my experiences from both the interviewer and candidate sides.
 
 ## Unsuitable roles

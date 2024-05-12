@@ -7,17 +7,17 @@ published: true
 categories: [Posts, Electronics]
 tags: [C++, Arduino, ESP8266, RaspberryPi, MQTT, IoT]
 mermaid: false
-img_path: /assets/posts/img/2019/exploring-the-world-of-electronics/
+media_subpath: /assets/posts/img/2019/exploring-the-world-of-electronics/
 image: cover.webp
 ---
 
+## Introduction
 One time I was in a bookstore, wandering around, and decided to check out what was on the shelves for developers. I looked at book after book until the next section started. There were books about electronics that I knew almost nothing about. I was drawn to a large book with something unusual to me on the cover - the breadboard. The table of contents said it would take me from basic electronic circuits to microcontrollers. And I thought: Is it possible that one book can take me through everything? It sounded very interesting and exciting, so I decided to give it a try.
 
 ![Make: Electronics by Charles Platt](book.webp)
 _Make: Electronics by Charles Platt_
 
 ## Getting started
-
 The next step was to buy a list of things like electronic components: resistors, capacitors, potentiometers, relays, fuses, LEDs, transistors, logic chips, batteries, breadboards, dupont jumpers, wires, etc. and equipment: multimeters, wire cutters, wire strippers, soldering station, etc. I bought all the components mentioned in the book. Later, I expanded my equipment with DIY kits to make a power supply and other useful things for my lab. The process of soldering things together was like a nice separate hobby that I enjoyed doing after my regular work. Soldering, like any other skill, has to be practiced and mastered. This activity helped me to understand how to solder and how to use a multimeter.
 
 ![DYI power supply](power-supply.webp)

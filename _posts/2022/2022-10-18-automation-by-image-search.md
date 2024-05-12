@@ -7,10 +7,11 @@ published: true
 categories: [Projects, Desktop, Web]
 tags: [Python, Desktop automation, Web automation]
 mermaid: false
-img_path: /assets/posts/img/2022/automation-by-image-search/
+media_subpath: /assets/posts/img/2022/automation-by-image-search/
 image: cover.webp
 ---
 
+## Story
 Thanks to the application design and tools available today, it is quite easy to identify elements on a screen that need to be interacted with or validated. We use `TreeWalker` for desktop applications, selectors to find elements in the `DOM` for web applications. However, there are times when we are limited to programmatic access and need to find other ways.
 
 I once had to deal with a Unity mini-game that drew graphics on a screen. The only way to automate it was to simulate user actions such as mouse clicks, keystrokes, etc. But how do you know where to click or press without seeing the elements tree?

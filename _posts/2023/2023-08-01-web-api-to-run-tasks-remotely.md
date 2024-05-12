@@ -7,10 +7,11 @@ published: true
 categories: [Projects, Web]
 tags: [DotNet, C#, ASP.NET, CodeceptJS, API, Test automation]
 mermaid: true
-img_path: /assets/posts/img/2023/web-api-to-run-tasks-remotely/
+media_subpath: /assets/posts/img/2023/web-api-to-run-tasks-remotely/
 image: cover.webp
 ---
 
+## Story
 Sometimes there is no "standard" way to do things, as in this example. The team had to brainstorm to figure out how to automate E2E tests that involve running tasks from the remote machine. Imagine, we need to log in to a website, create some data, then execute a task that resides on a dedicated server and validate that there are some changes happened to our data in a website. How can we do this remotely and automatically? Manually, this process required connecting to a remote machine and manually executing tasks. In production, this is done automatically on schedule, so there is no built-in logic to do it on demand.
 
 ```mermaid

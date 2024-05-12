@@ -7,11 +7,12 @@ published: true
 categories: [Posts, Software Development]
 tags: [ASP.NET, C#, API]
 mermaid: true
-img_path: /assets/posts/img/2024/streaming-api-and-how-to-test-it/
+media_subpath: /assets/posts/img/2024/streaming-api-and-how-to-test-it/
 video_path: assets/posts/video/2024/streaming-api-and-how-to-test-it/
 image: cover.webp
 ---
 
+## Introduction 
 There is a well-known and widely used term called REST API. I'm pretty sure you've had to deal with it when developing and testing software products. However, there are other types of APIs, not only by response type, but by the mechanism of keeping the connection open to provide constant chunks of data, or so called stateful API. Let's look at and compare the following two: REST and Streaming APIs.
 
 ## REST API vs Streaming API

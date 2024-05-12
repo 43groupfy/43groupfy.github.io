@@ -7,10 +7,11 @@ published: true
 categories: [Projects, Desktop]
 tags: [DotNet, C#, WinForms, SQLite, InnoSetup, Delphi, Batch Scripting]
 mermaid: true
-img_path: /assets/posts/img/2013/aquaculture-management-and-analysis-software/
+media_subpath: /assets/posts/img/2013/aquaculture-management-and-analysis-software/
 image: cover.webp
 ---
 
+## Story
 I have done some small projects so far, as my colleague suggested me to develop a solution for the research institute in 2014. This was a great opportunity for me to build a more complex, larger and hopefully professional solution. We worked with the customer to gather requirements and understand their needs. Since it takes time to understand their business, I built a basic prototype to demonstrate the core features and get early feedback. I had to think about how to model their data, design the UI/UX for their specific tasks, and think about how to make it easy to install and use for people who are not technical and have basic computer skills.
 
 In addition to trying to make the project itself more professional, I also wanted to make the project management more organized. I had to work with several people with different roles in the project, so I started using the project management tool Redmine to manage tasks, assign responsibilities, and track progress. Releases and previews were available for download from FTP server. For coding, I followed best practices such as using SVN for code versioning and Jenkins for continuous integration.
