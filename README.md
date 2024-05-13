@@ -45,15 +45,10 @@ _includes\embed\customvideo.html
 assets\css\jekyll-theme-chirpy.scss
 ```
 
-- Add page views counter
-```
-_includes\views.html
-_layouts\post.html
-```
-
 - Wrap text in code blocks
 - Adjust styles for schemas and code blocks
 - Align lists by center
+- Single line post titles
 ```
 assets/css/jekyll-theme-chirpy.scss
 ```
