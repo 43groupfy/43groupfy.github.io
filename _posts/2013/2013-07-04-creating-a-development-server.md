@@ -7,7 +7,7 @@ published: true
 categories: [Projects, DevOps]
 tags: [Linux, Bash, SVN, Munin, Jenkins, Redmine, PHP, MySQL]
 mermaid: false
-media_subpath: /assets/posts/img/2013/creating-a-development-server/
+media_subpath: /assets/media/2013/creating-a-development-server/
 image: cover.webp
 ---
 

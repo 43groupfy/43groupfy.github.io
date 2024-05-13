@@ -7,7 +7,7 @@ published: true
 categories: [Projects, Desktop]
 tags: [DotNet, C#, WinForms, SQLite, InnoSetup, Delphi, Batch Scripting]
 mermaid: true
-media_subpath: /assets/posts/img/2013/aquaculture-management-and-analysis-software/
+media_subpath: /assets/media/2013/aquaculture-management-and-analysis-software/
 image: cover.webp
 ---
 

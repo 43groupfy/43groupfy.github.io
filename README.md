@@ -34,15 +34,13 @@ $ bundle exec jekyll s
 + gem "jekyll-theme-chirpy", "= 6.5.5"
 ```
 
-2. Run `bundle update`
+2. Run `bundle`
 
 ## Customizations
 
-- Embed video file
+- Fix embed video file feature
 ```
 _includes\embed\video.html
-_includes\embed\customvideo.html
-assets\css\jekyll-theme-chirpy.scss
 ```
 
 - Wrap text in code blocks

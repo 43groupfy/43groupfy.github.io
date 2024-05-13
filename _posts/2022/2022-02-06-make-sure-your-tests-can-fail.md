@@ -7,7 +7,7 @@ published: true
 categories: [Posts, Software Testing, Test Automation]
 tags: [Automated Testing]
 mermaid: true
-media_subpath: /assets/posts/img/2022/make-sure-your-tests-can-fail/
+media_subpath: /assets/media/2022/make-sure-your-tests-can-fail/
 image: cover.webp
 ---
 

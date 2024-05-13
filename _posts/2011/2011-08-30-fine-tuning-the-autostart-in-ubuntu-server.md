@@ -7,7 +7,7 @@ published: true
 categories: [Posts, DevOps]
 tags: [Ubuntu, Linux, System-V, VirtualBox]
 mermaid: false
-media_subpath: /assets/posts/img/2011/fine-tuning-the-autostart-in-ubuntu-server/
+media_subpath: /assets/media/2011/fine-tuning-the-autostart-in-ubuntu-server/
 image: cover.webp
 ---
 

@@ -7,7 +7,7 @@ published: true
 categories: [Projects, Web]
 tags: [Javascript, Webpack]
 mermaid: true
-media_subpath: /assets/posts/img/2023/browser-extension-to-add-what-is-missing/
+media_subpath: /assets/media/2023/browser-extension-to-add-what-is-missing/
 image: cover.webp
 ---
 

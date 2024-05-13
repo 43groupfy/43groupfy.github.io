@@ -7,7 +7,7 @@ published: true
 categories: [Projects, Web]
 tags: [DotNet, C#, ASP.NET, CodeceptJS, API, Test automation]
 mermaid: true
-media_subpath: /assets/posts/img/2023/web-api-to-run-tasks-remotely/
+media_subpath: /assets/media/2023/web-api-to-run-tasks-remotely/
 image: cover.webp
 ---
 
