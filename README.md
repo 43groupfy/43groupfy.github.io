@@ -38,11 +38,6 @@ $ bundle exec jekyll s
 
 ## Customizations
 
-- Fix embed video file feature
-```
-_includes\embed\video.html
-```
-
 - Wrap text in code blocks
 - Adjust styles for schemas and code blocks
 - Align lists by center
