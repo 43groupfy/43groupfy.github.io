@@ -69,12 +69,12 @@ function displayOutput() {
 }
 </script>
 
-> <button class="btn btn-success" onclick="displayOutput()">
+> <a role="button" href="#" onclick="displayOutput()">
 >  <span>Click me</span>
-> </button> to see the code output
+> </a> to see the code output.
 {: .prompt-tip #output-console }
 
-> Want to know more about my experience? Here are [projects](/categories/projects) I worked on and [tools](/tags) I use
+> Want to know more about my experience? Here are [projects](/categories/projects) I worked on and [tools](/tags) I use.
 {: .prompt-info }
 
 Testimonials

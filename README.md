@@ -27,6 +27,11 @@ $ bundle exec jekyll --drafts
 $ bundle exec jekyll s
 ```
 
+- Build like in production
+```bash
+$ JEKYLL_ENV=production bundle exec jekyll s
+```
+
 ## Upgrade
 1. Update version number
 ```diff
