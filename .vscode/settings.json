@@ -15,8 +15,11 @@
     "devcontainer.json"
   ],
   "cSpell.words": [
+    "devcontainer",
+    "devcontainers",
     "Fuks",
     "kungfux",
-    "Photoshop"
+    "Photoshop",
+    "webp"
   ],
 }
