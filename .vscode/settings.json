@@ -1,7 +1,22 @@
 {
-    "cSpell.words": [
-        "Fuks",
-        "kungfux",
-        "Photoshop"
-    ]
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "cSpell.ignorePaths": [
+    "package-lock.json",
+    "node_modules",
+    "vscode-extension",
+    ".git/objects",
+    ".vscode",
+    ".vscode-insiders",
+    "devcontainer.json"
+  ],
+  "cSpell.words": [
+    "Fuks",
+    "kungfux",
+    "Photoshop"
+  ],
 }

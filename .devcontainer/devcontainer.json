@@ -1,0 +1,67 @@
+{
+  "name": "kungfux.github.io",
+  "runArgs": [
+    "--name",
+    "kungfux.github.io"
+  ],
+  // "image": "ruby:latest",
+  "image": "mcr.microsoft.com/devcontainers/jekyll:2-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "onCreateCommand": "bundle install",
+  "postCreateCommand": "echo \"source /usr/share/bash-completion/completions/git\" >> ~/.bashrc",
+  // "postStartCommand": "nohup bash -c 'bundle exec jekyll s -l &'",
+  "forwardPorts": [
+    4000
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        // Prettier
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "prettier.trailingComma": "none",
+        // Shopify Liquid
+        "files.associations": {
+          "*.html": "liquid"
+        },
+        "[markdown]": {
+          "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+        },
+        // Formatter
+        "[html][liquid]": {
+          "editor.defaultFormatter": "Shopify.theme-check-vscode"
+        },
+        "[shellscript]": {
+          "editor.defaultFormatter": "foxundermoon.shell-format"
+        },
+        // Disable vscode built-in stylelint
+        "css.validate": false,
+        "scss.validate": false,
+        "less.validate": false,
+        // Stylelint extension settings
+        "stylelint.snippet": [
+          "css",
+          "scss"
+        ],
+        "stylelint.validate": [
+          "css",
+          "scss"
+        ]
+      },
+      "extensions": [
+        "killalau.vscode-liquid-snippets",
+        "Shopify.theme-check-vscode",
+        "esbenp.prettier-vscode",
+        "foxundermoon.shell-format",
+        "stylelint.vscode-stylelint",
+        "yzhang.markdown-all-in-one",
+        "streetsidesoftware.code-spell-checker",
+        "mhutchie.git-graph",
+        "pomber.git-file-history",
+        "wayou.vscode-todo-highlight"
+      ]
+    }
+  }
+}
