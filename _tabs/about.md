@@ -2,12 +2,21 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
+mermaid: true
 ---
 
 Hi, I'm Alexander. Nice to meet you.
 ---
 
 Since I started my journey as an enterprise software test engineer 15 years ago, I've been building applications to simplify my work and that of my colleagues. After all these years of improving my skills and gaining experience, I continue to build small and bigger projects playing with different technology stacks and I really enjoy this process.
+
+```mermaid
+timeline
+    title Programming Languages Journey
+    < 2010 : Basic : Pascal : Delphi
+    < 2020 : CSharp : Java : C++ : PHP
+    < 2025 : CSharp : Javascript
+```
 
 ```js
 const experience = [
@@ -31,8 +40,8 @@ function describeExperience() {
   const yearsOfExperience = experience.reduce((total, job) => total + job.years, 0);
   const jobHistory = experience.map(job => `${job.role} for ${job.years} years`);
   const skills = [...programmingLanguages, ...tools, ...os, ...others];
-  
-  return `With ${yearsOfExperience} years of experience, ` + 
+
+  return `With ${yearsOfExperience} years of experience, ` +
     `I've worked as a ${jobHistory.join(', ')}. My skills include ${skills.join(', ')}.`;
 }
 ```
@@ -59,8 +68,8 @@ function describeExperience() {
   const yearsOfExperience = experience.reduce((total, job) => total + job.years, 0);
   const jobHistory = experience.map(job => `${job.role} for ${job.years} years`);
   const skills = [...languages, ...tools, ...os, ...others];
-  
-  return `With ${yearsOfExperience} years of experience, ` + 
+
+  return `With ${yearsOfExperience} years of experience, ` +
     `I've worked as a ${jobHistory.join(', ')}. My skills include ${skills.join(', ')}.`;
 }
 
