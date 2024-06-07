@@ -2,9 +2,12 @@
 title: Fine-tuning the autostart in Ubuntu Server
 description: Automate the start and stop of a VirtualBox VM in Ubuntu Server.
 date: 2024-06-03 22:41:12 +0200
+last_modified_at: 
 categories: [Posts, DevOps]
 tags: [Ubuntu, Linux, System-V, VirtualBox]
-media_subpath: 
+mermaid: false
+media_subpath:
+image: 
 permalink: /fine-tuning-the-autostart-in-ubuntu-server/
 ---
 
