@@ -5,9 +5,10 @@ date: 2024-06-03 22:41:12 +0200
 last_modified_at: 
 categories: [Posts, DevOps]
 tags: [Ubuntu, Linux, System-V, VirtualBox]
-mermaid: false
-media_subpath:
-image: 
+published: true
+mermaid: true
+media_subpath: /assets/media/2021/test-framework-for-microsoft-office-add-in/
+image: cover.webp
 permalink: /fine-tuning-the-autostart-in-ubuntu-server/
 ---
 
